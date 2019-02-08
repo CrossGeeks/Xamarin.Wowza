@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata minClientVersion="2.8.1">
+    <id>Xamarin.iOS.Wowza</id>
+    <version>1.0</version>
+    <title>Xamarin.iOS.Wowza</title>
+    <authors>pujolsluis, rdelrosario</authors>
+    <owners>crossgeeks</owners>
+    <licenseUrl>https://github.com/CrossGeeks/Xamarin.Wowza/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/CrossGeeks/Xamarin.Wowza</projectUrl>
+    <iconUrl>https://github.com/CrossGeeks/Xamarin.Wowza/blob/master/art/icon.png?raw=true</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Xamarin.iOS.Wowza binding library.</description>
+    <summary>Xamarin.iOS.Wowza binding library.</summary>
+    <releaseNotes>Support for Playback and Broadcasts</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>xamarin.ios, wowza</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+        <!--Xamarin.iOS-->
+        <file src="..\WowzaIOSSDK\bin\Release\WowzaIOSSDK.dll" target="lib\Xamarin.iOS10" />
+  </files>
+</package>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata minClientVersion="2.8.1">
+    <id>Xamarin.Android.Wowza</id>
+    <version>1.0</version>
+    <title>Xamarin.Android.Wowza</title>
+    <authors>pujolsluis, rdelrosario</authors>
+    <owners>crossgeeks</owners>
+    <licenseUrl>https://github.com/CrossGeeks/Xamarin.Wowza/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/CrossGeeks/Xamarin.Wowza</projectUrl>
+    <iconUrl>https://github.com/CrossGeeks/Xamarin.Wowza/blob/master/art/icon.png?raw=true</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Xamarin.Android.Wowza binding library.</description>
+    <summary>Xamarin.Android.Wowza binding library.</summary>
+    <releaseNotes>Support for Playback and Broadcasts</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>xamarin.android, wowza</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+        <!--Xamarin.Android-->
+        <file src="..\WowzaDroidSDK\bin\Release\WowzaDroidSDK.*" target="lib\MonoAndroid80" />
+  </files>
+</package>
